@@ -8,7 +8,7 @@
 - `+`: Addition.
 - `-`: Subtraction.
 - `*`: Multiplication.
-- `/`: Division.
+- `/`: Division.g
 - `%`: Modulus (remainder).
 - `++`: Increment operator; increases an integer value by one.
 - `--`: Decrement operator; decreases an integer value by one.
