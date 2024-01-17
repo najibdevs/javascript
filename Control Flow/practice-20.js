@@ -1,13 +1,14 @@
 // Write a function that prints all prime numbers up to a given number.
 
-function showPrime(limit) {
+
+function checkPrime(limit) {
     for (let number = 2; number <= limit; number++) {
         if (isPrime(number)) console.log(number)
     }
 }
 
 function isPrime(number) {
-    for (let factor = 2; factor < number; factor++) {
+    for (let factor = 2; factor <= number; factor++) {
         if (number % factor === 0) {
             return false
         }
@@ -16,4 +17,4 @@ function isPrime(number) {
     }
 }
 
-console.log(showPrime(10))
+console.log(isPrime(10))
