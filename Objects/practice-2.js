@@ -19,4 +19,4 @@ function Address(street, city, zipCode) {
     this.zipCode = zipCode
 }
 
-let anotherAdress = new Address("Baker Street", "London", "NW2 6XE")
+let anotherAdress = new Address("Baker Street", "London", "NW1 6XE")
