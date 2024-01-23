@@ -4,4 +4,4 @@ function twoNumbers(num1, num2) {
    return (num1 > num2) ? num1 : num2
 }
 
-console.log(twoNumbers(10, 13))
+console.log(twoNumbers(11, 13))
