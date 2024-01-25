@@ -6,6 +6,6 @@ const person = {
     nationality: "British"
 }
 
-for (let persons of person) {
-    console.log(persons)
+for (key in person) {
+    console.log(key, person[key])
 }
