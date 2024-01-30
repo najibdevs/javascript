@@ -16,5 +16,5 @@ function isPrime(number) {
     }
 }
 
-console.log(showPrime(17))
+console.log(showPrime(18))
 
