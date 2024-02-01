@@ -11,4 +11,4 @@ function sum(limit) {
     return sum
 }
 
-console.log(sum(11))
+console.log(sum(12))
