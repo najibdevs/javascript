@@ -15,7 +15,7 @@ function findMaxDifference(arr) {
         minElement = Math.min(minElement, arr[i]);
     }
 
-    return maxDifference;
+    return maxDifference
 }
 
 
